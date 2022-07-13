@@ -1,0 +1,18 @@
+#main{
+    width: 70%;
+    min-height: 50vh;
+    max-height: 50vh;
+    margin: auto;
+    margin-top: 5%;
+     overflow: scroll;
+    overflow-x:hidden;
+}
+#main::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    /* background-color: green; */
+}
+#main::-webkit-scrollbar-thumb{
+ height: 5px;
+  background-color: black;
+}

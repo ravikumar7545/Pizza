@@ -1,0 +1,75 @@
+#cartBox {
+    font-family: Consolas;
+    width: 100%;
+    height: 10vh;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        
+            align-items: center;
+  }
+
+
+  
+  #cartBox #imagecontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #cartBox #imagecontent p {
+    margin-left: 8%;
+  }
+  
+  #cartBox #increment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 13%;
+  }
+  
+  #cartBox #increment button {
+    border: 0;
+    width: 20%;
+    height: 4vh;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #cartBox #imagecontent img {
+    width: 6vw;
+    height: 8vh;
+    border-radius: 5px;
+  }
+  
+  #cartBox button {
+    margin-right: 5%;
+    border: 0;
+    width: 10%;
+    height: 4vh;
+    background-color: red;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }

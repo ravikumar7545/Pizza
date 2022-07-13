@@ -1,0 +1,7 @@
+body{
+  font-family: Consolas;
+}
+button{
+  cursor: pointer;
+  outline: none;
+}
